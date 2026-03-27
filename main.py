@@ -7,7 +7,7 @@ from PIL import Image
 class ImageProcessorApp:
     def __init__(self, root: tk.Tk):
         self.root = root
-        self.root.title("PNG 洋红背景抠图工具")
+        self.root.title("PNG 背景抠图工具")
         self.root.geometry("760x680")
         self.root.minsize(700, 620)
 
